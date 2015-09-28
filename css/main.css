@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin: 0 auto;
+    width: 500px;
+}
+
+header {
+    text-align: right;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul li {
+    display: inline;
+}
+header .nav {
+    color:#777;
+    font-size: 12px;
+    padding: 5px;
+}
+header .nav:hover {color: #111;}
+header .nav.active {
+    color: #dd4b39;
+    border-bottom: 2px solid #dd4b39;
+}
+
+.page {
+    display: none;
+    margin-top: 15px;
+}
+.page.active {display: block}
+
+#main .data {
+    color: #444;
+    font-size: 13px;
+}
+#main .data div {padding: 5px 0;}
+#main .data strong {color: #333}
+#main canvas {
+    margin: 7px;
+    box-shadow: 0 0 7px #777;
+}
+
+#main button {
+    float: right;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+#main button:hover {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+#main button:active {
+    background-color: #a6a6a6;
+    border-color: #000;
+}
+
+#about * {color: #444;}
+#about h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+#about h3 {font-size: 16px;}
+#about p {
+    font-size: 13px;
+    line-height: 16px;
+}

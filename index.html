@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Project</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <ul>
+                <li><a class="nav active" href="#main">Main</a></li>
+                <li><a class="nav" href="#about">About</a></li>
+            </ul>
+        </header>
+        <section id="main" class="page active">
+            <div id="info">
+                <div class="data">
+                    <div>
+                        <strong>Point 1: </strong>
+                        <span data-element="point1"></span>
+                    </div>
+                    <div>
+                        <strong>Point 2: </strong>
+                        <span data-element="point2"></span>
+                    </div>
+                    <div>
+                        <strong>Point 3:</strong>
+                        <span data-element="point3"></span>
+                    </div>
+                    <div>
+                        <strong>Area:</strong>
+                        <span data-element="area"></span>
+                    </div>
+                </div>
+                <button id="reset">Reset</button>
+            </div>
+            <canvas id="canvas" width="486" height="400"></canvas>
+        </section>
+        <section id="about" class="page">
+            <h2>Welcome To JavaScript Test!</h2>
+            <h3>About Author</h3>
+            <p>My name is Volodymyr Maliuchenko. I'm well-experienced web developer, feel passion to JavaScript and modern web technologies. My main skills is JavaScript, Node.Js, AngularJs, HTML5/CSS3, PHP, MySQL.</p>
+            <p>Here I'd like to present my solution for the test case.</p>
+            <h3>About Program</h3>
+            <p>The program written in JavaScript. It used HTML5 canvas element for all drawings. Top area displaying some information from canvas area.</p>
+            <h3>How To Use</h3>
+            <p>To see the result You have to add 3 points to the canvas area. In order to add a point to the canvas you need to click somewhere inside canvas area. By clicking it will draw red circle. Then the program will calculate the coordinates for 4th point and draw the parallelogram and the circle with the same area as parallelogram.</p>
+            <p>Info about coordinates of the points and area you can see above.</p>
+            <p>Now you can start to drag red point by clicking on red point and moving it. The info above will be updated accordingly.</p>
+            <p>You can clear area and start from beginning by pressing button "Reset".</p>
+        </section>
+    </div>
+</body>
+</html>
